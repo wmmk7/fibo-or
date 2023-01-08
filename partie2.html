@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> La suite Fibonacci et le nombre d'or .</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="fibbo.css">
+
+    </head>
+    <body>
+        <img src="img2.jpg"id="i1"> 
+        <div>
+         <ul id="ul1">
+           <li id="li1"><a href="fibbo.html">| INTRO </a></li>
+           <li id="li1"><a href="partie1.html">| 1<sup>ér</sup>partie </a></li>
+           <li id="li1"><a href="partie2.html">| 2<sup>éme</sup>partie </a></li>
+         </ul>
+     </div><br><br>
+<p class="c1">
+    <a href="https://youtu.be/OmeLT1tNYp8">Lien de 2<sup>eme</sup>video.</a><br> 
+    <u>Ecouter ce audio : (Fibonacci π 1.618 no piano)</u><br><br>
+    <audio controls="">
+    <source src="Encoding the Fibonacci Sequence Into Music.mp3">
+    </audio><br><br></p><br>
+
+     <h3 style="color:black" align="center">
+        <u>Vous pouvez tester ici le calcul d'une suite de Fibonacci</u></h3> 
+        <script type="text/javascript">
+            tab=new Array(0,1);
+            function fib()
+            {var Un=0;
+            Nieme=prompt("entrez le N ième rang de\nla suite de Fibonacci", "20");
+            for (i=2; i<=Nieme; i++)
+            {
+            tab[i]=tab[i-1]+tab[i-2];
+            }
+            for (n=0; n<=Nieme; n++)
+            {
+            document.forms['ff'].resultats.value+="U"+n+"="+tab[n]+" , ";
+            }
+            document.forms['ff'].resultats.value+="FIN";
+            }
+            function supr()
+            {
+            document.forms['ff'].resultats.value=""; 
+            } 
+            </script>
+
+    <p class="c1"><b>Cliquez sur le bouton "SUITE DE FIBONACCI" pour lister la suite de Fibonacci du premier élément jusqu'au N <sup>ième</sup> élément</b><br>(Il est favorable de ne pas choisir une valeur trés grand de N pour tester )<br></p>
+     <form name="ff">
+    <input type="button" onclick="fib();" value="SUITE DE FIBONACCI"><br><br>
+    <textarea name="resultats" cols="50" rows="10"></textarea><br><br>
+    <p><b>Cliquez ci-dessous pour effacer les résultats</b></p>
+    <input type="button" onclick="supr();" value="EFFACER LES VALEURS"><br>
+     </form>
+    </body>
+</html>
