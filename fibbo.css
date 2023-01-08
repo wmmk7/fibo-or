@@ -1,0 +1,89 @@
+
+body{
+    background-image: url('bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 80%; 
+}
+ #i1{
+    height: 100px;
+    width: 100px;
+    }
+#tit1{ 
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-attachment: scroll;
+}
+#cont{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+#text1{
+    font-size: 23px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+#btn1{display: inline-block;
+    padding: 10px 25px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    color: rgb(80, 111, 137);
+    border: 5px outset rgb(80, 111, 137);
+    border-radius:5px;
+}
+#btn1:active{
+    background-color: rgb(142, 138, 138);
+    color: white;
+}
+#vd1{
+width:400px;
+height:250px;
+display:none;
+margin-left:150px;
+}
+#li1{
+    display: inline-block;
+    padding-right: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ul1{margin-top: 2px;
+    float: right;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: line-through;
+    color: rgb(80, 111, 137);
+}
+#img{height:109px;width: 165px;
+border: 2px solid black;margin-left: 3.5cm;
+position:static;
+}
+
+.c1{
+color: rgb(60, 41, 41);
+font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(162, 183, 201);
+text-align: center;border-radius: 3px;
+}
+#tit2{
+    color: rgb(76, 101, 123);
+}
+form{text-align: center;}
+#li2{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 15pt;
+}
+span{
+    color:white;
+    font-size: 15pt;
+}
+address{font-size: 18pt;}
