@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> La suite Fibonacci et le nombre d'or .</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="fibbo.css">
+
+    </head>
+    <body>
+        <img src="img2.jpg"id="i1"> 
+        <div>
+         <ul id="ul1">
+           <li id="li1"><a href="fibbo.html">| INTRO </a></li>
+           <li id="li1"><a href="partie1.html">| 1<sup>ér</sup>partie </a></li>
+           <li id="li1"><a href="partie2.html">| 2<sup>éme</sup>partie </a></li>
+         </ul>
+     </div><br>
+       <br><br>  
+ <div class="c1">La suite de Fibonacci est une suite de nombres dans laquelle tout nombre est égal à la somme des deux précédents. Il suffit de prendre deux nombres de départ. Les ajouter donne le troisième, puis le deuxième + le troisième donne le quatrième et ainsi de suite.Dans toute suite de Fibonacci le rapport des deux derniers nombres(le plus grand / le plus petit), tend vers la valeur 1,61803...,<a href="https://www.adobe.com/ca_fr/creativecloud/design/discover/golden-ratio.html"> le nombre d'or.</a> <br>
+    <h3 id="tit2">Tester sur les dix premiers termes de la suite de Fibonacci le nombre d'or :</h3>
+</div>     
+    <img src="img3.jpg"id="img"class="c2">
+    <img src="img4.jpg"id="img">
+    <img src="img5.jpg"id="img"><br>
+    <form name="FF">
+        <select name="S1">
+           <option value="1">1</option> 
+           <option value="2">2</option> 
+           <option value="3">3</option> 
+           <option value="5">5</option> 
+           <option value="8">8</option> 
+           <option value="13">13</option> 
+           <option value="21">21</option> 
+           <option value="34" selected="">34</option> 
+        </select>
+        /
+        <select name="S2"> 
+            <option value="1">1</option> 
+            <option value="2">2</option> 
+            <option value="3">3</option> 
+            <option value="5">5</option> 
+            <option value="8">8</option> 
+            <option value="13">13</option> 
+            <option value="21" selected="">21</option> 
+            <option value="34">34</option> 
+         </select>
+        <input type="text" name="BB" onfocus="
+        c1=parseInt(document.FF.S1.value);
+        c2=parseInt(document.FF.S2.value);
+        document.FF.BB.value=eval(c1/c2)
+        ">
+        </form>
+        <p class="c1">1-On retrouve très souvent des motifs basé sur la suite Fibonacci et sur le nombre d’or,comme:
+            les cactus,les ananas,... .Donc,elle permet de comprendre la construction de la vie (corps humain,nature)
+. Dans certains objets de la nature, on observe aussi très souvent des spirales (spirales logarithmique) dans lesquelles intervient le nombre d’or. Cette spirale d’or s’inscrit dans un rectangle dont les proportions (rapport de la longueur sur la hauteur) correspondent au nombre d’or 
+            (on peut construire une spirale d’or en traçant des 1/4 de cercle dans chaque carré).<br>
+            <img src="img6.jpg" width="300px" height="300px"><br>
+            <a href="https://youtu.be/JTy3v9_nZH8">Lien de 1<sup>er</sup>video.</a><br>
+        2- La suite de fibonacci est un outil pour faire des prédictions mathématiques.<br>
+            <u>Par exemple:</u> quand on prend l’étude d’une population de lapins, on voit que ça permet de prédire quand on aura un nombre donné de lapins.<br>
+            <img id="i5" src="img1.jpg" height="300" width="350"><br>
+            3- La suite de Fibonacci peut servir à créer des projets artistiques harmonieux.
+            De tout temps, le nombre d’or a engendré une véritable fascination pour certains artistes ou intellectuels... 
+         Quelques illustres adorateurs de ce nombre quasi magique :<br>
+            <span>Phidias</span>
+            Architecte, sculpteur et peintre,
+            Phidias (avec Ictinos et Callicratès) est le concepteur et maître d’œuvre du Parthénon.<br>
+            <img src="img7.jpg"width="300px" height="300px"><br>
+           
+        </p>  
+
+    </body>
+</html>
